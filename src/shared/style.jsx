@@ -1,0 +1,73 @@
+import { StyleSheet } from "react-native";
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "#fff",
+    alignItems: "center",
+    justifyContent: "start",
+  },
+  btn: {
+    alignItems: "center",
+    backgroundColor: "blanchedalmond",
+    paddingVertical: 15,
+    paddingHorizontal: 20,
+    borderRadius: 5,
+  },
+  btnText: {
+    color: "black",
+  },
+  containerList: {
+    paddingVertical: 5,
+    flexDirection: "column",
+    justifyContent: "center",
+    alignItems: "center",
+    gap: 10,
+    margin: 10,
+    padding: 10,
+    width: "90%",
+  },
+  task: {
+    backgroundColor: "#f9f9f9",
+    padding: 10,
+    borderRadius: 5,
+    width: "100%",
+    shadowColor: "#000",
+    shadowOffset: { width: 0, height: 1 },
+    shadowOpacity: 0.2,
+    shadowRadius: 1.41,
+    elevation: 2,
+    paddingHorizontal: 100,
+  },
+  taskText: {
+    fontSize: 16,
+    textAlign: "left",
+  },
+  containerBtn: {
+    flexDirection: "row",
+    justifyContent: "center",
+    alignItems: "center",
+    gap: 10,
+    marginVertical: 10,
+  },
+  divider: {
+    height: 1,
+    width: "90%",
+    backgroundColor: "#000",
+    marginVertical: 20,
+  },
+  text: {
+    fontSize: 18,
+    fontWeight: "bold",
+    textTransform: "uppercase",
+    marginVertical: 20,
+  },
+  input: {
+    borderWidth: 1,
+    borderColor: "#aeaeae",
+    width: "90%",
+    marginVertical: 10,
+    height: 50,
+    padding: 10,
+    borderRadius: 5,
+  },
+});
